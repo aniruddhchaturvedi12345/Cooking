@@ -1,0 +1,28 @@
+{
+    "parent": "engine:iconItem",
+    "Item": {
+        "icon": "Cooking:",
+        "stackId": "Cooking:Clay pot"
+    "consumedOnUse": false
+    },
+    "DisplayName": {
+        "name": "Clay pot"
+         "description": "Used to cook raw foods over fire, broths or soups can also be made with it."
+    },
+    "Durability": {
+      "durability": 80,
+      "maxDurability": 80
+    },
+    "CraftingStationTool": {
+      "type": ["Clay pot"]
+    },
+    "CraftInHandIngredient": {
+      "componentType": "Cooking:Clay pot"
+    },
+    "ItemHelp": {
+        "category": "Cooking",
+        "paragraphText": [
+          "Basic utensil, used to cook raw foods over fire, broths or soups can also be made with it."
+        ]
+    }
+}
